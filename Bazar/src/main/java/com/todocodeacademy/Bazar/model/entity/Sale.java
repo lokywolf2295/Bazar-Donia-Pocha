@@ -1,0 +1,4 @@
+package com.todocodeacademy.Bazar.model.entity;
+
+public class Sale {
+}
