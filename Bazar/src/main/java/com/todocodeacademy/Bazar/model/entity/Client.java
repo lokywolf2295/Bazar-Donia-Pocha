@@ -1,4 +1,9 @@
 package com.todocodeacademy.Bazar.model.entity;
 
-public class Client {
+import com.todocodeacademy.Bazar.model.entity.base.Base;
+
+public class Client extends Base{
+    private String name;
+    private String lastname;
+    private String dni;
 }
