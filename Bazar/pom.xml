@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.todocodeacademy</groupId>
 	<artifactId>Bazar</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
-	<name>Bazar</name>
+	<name>bazar</name>
 	<description>Proyecto Personal Integrador para Practicar los conocimientos de Java con SpringBoot, Base de Datos My SQL y pruebas con Postman y Swagger</description>
 	<properties>
 		<java.version>21</java.version>

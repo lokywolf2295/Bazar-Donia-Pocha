@@ -1,0 +1,47 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>340</y><w>210</w><h>230</h></coordinates><panel_attributes>_Product_
+--
+id: Long
+code_product: Long
+name String 
+mark String
+cost Double 
+quantity_avaible Double
+--
+_Methods_
+createProduct
+getAllProducts
+getProduct{code_product}
+getProdustWithMinQuantity
+deleteProduct
+editProduct
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>20</y><w>210</w><h>260</h></coordinates><panel_attributes>_Sale_
+--
+id: Long
+code_sale: Long
+date_sale LocalDate
+total Double 
+listProducts List&lt;Products&gt;
+oneClient Client
+--
+_Methods_
+createSale
+getAllSales
+getSale{code_sale}
+getProdustToSale{code_sale}
+getSaleToDate{date_sale}
+getBigSale
+deleteSale
+editSale</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>340</y><w>210</w><h>180</h></coordinates><panel_attributes>_Client_
+--
+id: Long
+name String
+lastname String
+dni String
+--
+_Methods_
+createClient
+getAllClients
+getClient{code_client}
+getClientWithMoreBuys
+deleteClient
+editClient</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>120</y><w>140</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;220;120;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>100</y><w>140</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;240;10;10;120;10</additional_attributes></element></diagram>

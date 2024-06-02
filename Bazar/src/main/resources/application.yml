@@ -1,11 +1,11 @@
 spring:
   application:
-    name: bazar-donia-pocha
+    name: bazar
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: ${DB_USER}
     password: ${DB_PASS}
-    url: "jdbc:mysql://localhost:3306/db_bazar?createDatabaseIfNotExist=true"
+    url: ${DB_URL}
   jpa:
     show-sql: true
     database: mysql
@@ -19,3 +19,6 @@ spring:
   output:
     ansi:
       enabled: always
+
+server:
+    port: 8080
